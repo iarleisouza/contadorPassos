@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <!--  Imagem de <a href="https://pixabay.com/pt/users/yohoprashant-8132018/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3194977">Prashant Sharma</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3194977">Pixabay</a> -->
+    <title>Contador de Passos </title>
+</head>
+<body>
+    <header>
+        <h1>Contador de passos</h1>
+    </header>
+    <section>
+        <div>
+            <p>Início:
+            <input type="number" name="txtinicio" id="txtinicio" min="0">
+        </p>
+        <p>Fim:
+        <input type="number" name="txtfim" id="txtfim" min="0">
+    </p>
+   
+        <p>
+            <p>Passo:
+            <input type="number" name="txtpasso" id="txtpasso" min="0">
+        </p>
+       
+            <input type="button" value="Contar" onclick="contar()">
+        </p>
+        </div>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+    <p>&copy;CursoemVideo</p>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
